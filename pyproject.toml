@@ -14,7 +14,7 @@ message = "bump version: {current_version} → {new_version}"
 [[tool.bump-my-version.file_patterns]]
 path = "pyproject.toml"
 search = 'current_version = "{current_version}"'
-replace = 'current_version = "{new_version}"
+replace = 'current_version = "{new_version}"'
 [[tool.bump-my-version.file_patterns]]
 path = "pyproject.toml"
 search = 'version = "{current_version}"'

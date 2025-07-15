@@ -28,8 +28,8 @@ build:
 	pyinstaller $(SPEC_FILE)
 
 # Шаг 2: Копирование дополнительных файлов в папку с дистрибутивом.
-# Эта цель зависит от 'build', поэтому она выполнится только после успешной сборки.
-dist: build
+
+ dist: build
 	echo "Copying extra files to $(DIST_DIR)..."
 	cp $(EXTRA_FILES) $(DIST_DIR)/
 
