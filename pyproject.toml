@@ -1,9 +1,25 @@
 [project]
-name = "ase-convertor"
+name = "YASE"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple Adobe Swatch Exchange (.ase) file editor and converter."
+authors = [{ name = "Alex Bold aka Swasher", email = "mr.swasher@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
+
+[tool.bump-my-version]
+current_version = "0.1.0"
+commit = true
+tag = true
+message = "bump version: {current_version} → {new_version}"
+[[tool.bump-my-version.file_patterns]]
+path = "pyproject.toml"
+search = 'current_version = "{current_version}"'
+replace = 'current_version = "{new_version}"
+[[tool.bump-my-version.file_patterns]]
+path = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
+
 dependencies = [
     "colormath>=3.0.0",
     "pyinstaller>=6.14.2",
