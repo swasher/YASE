@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
 from colormath.color_objects import LabColor, sRGBColor, CMYKColor
 from colormath.color_conversions import convert_color
 from typing import List, Union, Type
-from classes import ColorMode
+from .common_data_classes import ColorMode
+
 
 class Color(ABC):
     colormath_class = None  # будет переопределен в подклассах
