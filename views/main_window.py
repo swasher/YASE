@@ -125,7 +125,7 @@ class SwatchEditorView(tk.Tk):
         # Type (используем Combobox)
         ttk.Label(main_frame, text="Type:").grid(row=1, column=0, sticky="e", pady=2)
         type_var = tk.StringVar(value=temp_swatch.type.value)
-        type_combobox = ttk.Combobox(main_frame, textvariable=type_var, values=["Spot", "Process"], state='readonly')
+        type_combobox = ttk.Combobox(main_frame, textvariable=type_var, values=[t.value for t in SwatchType], state='readonly')
         type_combobox.grid(row=1, column=1, sticky="ew", pady=2)
 
         # Mode (используем Combobox)

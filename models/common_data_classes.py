@@ -6,14 +6,18 @@ from enum import Enum
 if TYPE_CHECKING:
     from .color_data_class import Color
 
+
 class SwatchType(Enum):
     SPOT = "Spot"
     PROCESS = "Process"
+    GLOBAL = "Global"
+
 
 class ColorMode(Enum):
     RGB = "RGB"
     LAB = "LAB"
     CMYK = "CMYK"
+
 
 @dataclass
 class Swatch:

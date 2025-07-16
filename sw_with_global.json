@@ -1,0 +1,800 @@
+[
+  {
+    "name": "White",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "Black",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "name": "CMYK Red",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "CMYK Yellow",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "CMYK Green",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "CMYK Cyan",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "CMYK Blue",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "CMYK Magenta",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=15 M=100 Y=90 K=10",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.15000000596046448,
+        1.0,
+        0.8999999761581421,
+        0.10000000149011612
+      ]
+    }
+  },
+  {
+    "name": "C=0 M=90 Y=85 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.8999999761581421,
+        0.8500000238418579,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=0 M=80 Y=95 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.800000011920929,
+        0.949999988079071,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=0 M=50 Y=100 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.5,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=0 M=35 Y=85 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.3499999940395355,
+        0.8500000238418579,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=5 M=0 Y=90 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.05000000074505806,
+        0.0,
+        0.8999999761581421,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=20 M=0 Y=100 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.20000000298023224,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=50 M=0 Y=100 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.5,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=75 M=0 Y=100 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.75,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=85 M=10 Y=100 K=10",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.8500000238418579,
+        0.10000000149011612,
+        1.0,
+        0.10000000149011612
+      ]
+    }
+  },
+  {
+    "name": "C=90 M=30 Y=95 K=30",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.8999999761581421,
+        0.30000001192092896,
+        0.949999988079071,
+        0.30000001192092896
+      ]
+    }
+  },
+  {
+    "name": "C=75 M=0 Y=75 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.75,
+        0.0,
+        0.75,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=80 M=10 Y=45 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.800000011920929,
+        0.10000000149011612,
+        0.44999998807907104,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=70 M=15 Y=0 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.699999988079071,
+        0.15000000596046448,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=85 M=50 Y=0 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.8500000238418579,
+        0.5,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=100 M=95 Y=5 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        1.0,
+        0.949999988079071,
+        0.05000000074505806,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=100 M=100 Y=25 K=25",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        1.0,
+        1.0,
+        0.25,
+        0.25
+      ]
+    }
+  },
+  {
+    "name": "C=75 M=100 Y=0 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.75,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=50 M=100 Y=0 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.5,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=35 M=100 Y=35 K=10",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.3499999940395355,
+        1.0,
+        0.3499999940395355,
+        0.10000000149011612
+      ]
+    }
+  },
+  {
+    "name": "C=10 M=100 Y=50 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.10000000149011612,
+        1.0,
+        0.5,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=0 M=95 Y=20 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.0,
+        0.949999988079071,
+        0.20000000298023224,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=25 M=25 Y=40 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.25,
+        0.25,
+        0.4000000059604645,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=40 M=45 Y=50 K=5",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.4000000059604645,
+        0.44999998807907104,
+        0.5,
+        0.05000000074505806
+      ]
+    }
+  },
+  {
+    "name": "C=50 M=50 Y=60 K=25",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.5,
+        0.5,
+        0.6000000238418579,
+        0.25
+      ]
+    }
+  },
+  {
+    "name": "C=55 M=60 Y=65 K=40",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.550000011920929,
+        0.6000000238418579,
+        0.6499999761581421,
+        0.4000000059604645
+      ]
+    }
+  },
+  {
+    "name": "C=25 M=40 Y=65 K=0",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.25,
+        0.4000000059604645,
+        0.6499999761581421,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "C=30 M=50 Y=75 K=10",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.30000001192092896,
+        0.5,
+        0.75,
+        0.10000000149011612
+      ]
+    }
+  },
+  {
+    "name": "C=35 M=60 Y=80 K=25",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.3499999940395355,
+        0.6000000238418579,
+        0.800000011920929,
+        0.25
+      ]
+    }
+  },
+  {
+    "name": "C=40 M=65 Y=90 K=35",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.4000000059604645,
+        0.6499999761581421,
+        0.8999999761581421,
+        0.3499999940395355
+      ]
+    }
+  },
+  {
+    "name": "C=40 M=70 Y=100 K=50",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.4000000059604645,
+        0.699999988079071,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "name": "C=50 M=70 Y=80 K=70",
+    "type": "Process",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.5,
+        0.699999988079071,
+        0.800000011920929,
+        0.699999988079071
+      ]
+    }
+  },
+  {
+    "name": "C=35 M=60 Y=80 K=25 1",
+    "type": "Global",
+    "data": {
+      "mode": "CMYK",
+      "values": [
+        0.3499999940395355,
+        0.6000000238418579,
+        0.800000011920929,
+        0.25
+      ]
+    }
+  },
+  {
+    "name": "Grays",
+    "type": "Color Group",
+    "swatches": [
+      {
+        "name": "C=0 M=0 Y=0 K=100",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=90",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.8999940156936646
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=80",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.7999879717826843
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=70",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.6999970078468323
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=60",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.5999910235404968
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=50",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=40",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.39999398589134216
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=30",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.2999880015850067
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=20",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.19999699294567108
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=10",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.09999100118875504
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=0 Y=0 K=5",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.049988001585006714
+          ]
+        }
+      },
+      {
+        "name": "C=79 M=9 Y=80 K=25",
+        "type": "Global",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.7900000214576721,
+            0.09000000357627869,
+            0.800000011920929,
+            0.25
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Brights",
+    "type": "Color Group",
+    "swatches": [
+      {
+        "name": "C=0 M=100 Y=100 K=0",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=75 Y=100 K=0",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.75,
+            1.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "C=0 M=10 Y=95 K=0",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.10000000149011612,
+            0.949999988079071,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "C=85 M=10 Y=100 K=0",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.8500000238418579,
+            0.10000000149011612,
+            1.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "C=100 M=90 Y=0 K=0",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            1.0,
+            0.8999999761581421,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "C=60 M=90 Y=0 K=0",
+        "type": "Process",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.6000000238418579,
+            0.8999999761581421,
+            3.099999958067201e-05,
+            3.099999958067201e-05
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "1111",
+    "type": "Color Group",
+    "swatches": [
+      {
+        "name": "K=0",
+        "type": "Global",
+        "data": {
+          "mode": "CMYK",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ]
+  }
+]
