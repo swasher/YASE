@@ -3,9 +3,11 @@ from typing import TYPE_CHECKING
 import copy
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog  # Импортируем ttk
+from pathlib import Path
 
 from models import Swatch, ColorMode, SwatchType
 from models import Color
+from utils import get_version_from_pyproject
 
 if TYPE_CHECKING:
     from controllers import SwatchController
@@ -27,7 +29,7 @@ class SwatchEditorView(tk.Tk):
             style.theme_use('clam')
 
         self.controller = None
-        self.title("Swatch Editor")
+        self.title(f"Swatch Editor v{get_version_from_pyproject()}")
         self.geometry("600x400")
 
         self.layout = {
@@ -82,10 +84,11 @@ class SwatchEditorView(tk.Tk):
 
     def update_title(self, file_path: str | None):
         """API для контроллера: обновить заголовок окна."""
+        title = f"Swatch Editor v{get_version_from_pyproject()} "
         if file_path:
-            self.title(f"Swatch Editor - {file_path}")
-        else:
-            self.title("Swatch Editor")
+            file_name = Path(file_path).name
+            title += '[' + file_name + ']'
+        self.title(title)
 
     def open_edit_window(self, idx: int, swatch_to_edit: Swatch):
         """Открывает окно редактирования с использованием виджетов ttk."""
