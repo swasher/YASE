@@ -16,11 +16,12 @@ BUILD_DIR = build
 # Файлы, которые нужно скопировать рядом с .exe
 EXTRA_FILES = config.ini swatches.ase
 
-# --- Targets ---
+VERSION = $(shell python -c "import tomllib; f = open('pyproject.toml', 'rb'); print(tomllib.load(f)['project']['version']); f.close()")
+ARCHIVE_NAME = YASE-$(VERSION).7z
 
-# Цель по умолчанию (выполняется, если просто написать 'make')
-# Она зависит от цели 'dist', то есть сначала выполнится 'dist'.
-all: dist
+# --- Targets ---
+# Цель по умолчанию
+all: zip
 
 # Шаг 1: Запуск PyInstaller для создания .exe в папке DIST_DIR
 build:
@@ -29,7 +30,7 @@ build:
 
 # Шаг 2: Копирование дополнительных файлов в папку с дистрибутивом.
 
- dist: build
+dist: build
 	echo "Copying extra files to $(DIST_DIR)..."
 	cp $(EXTRA_FILES) $(DIST_DIR)/
 
@@ -42,3 +43,8 @@ clean:
 
 # Очень удобная команда: полная пересборка с нуля.
 rebuild: clean all
+
+# Шаг 3: Упаковка содержимого папки dist в ZIP
+zip: dist
+	@echo "Creating ZIP archive $(ARCHIVE_NAME)..."
+	cd $(DIST_DIR) && 7z a -r ../$(ARCHIVE_NAME) .
